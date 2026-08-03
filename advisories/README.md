@@ -11,3 +11,8 @@ English advisories for dynamically confirmed findings against [zhontai/Admin.Cor
 | AC-VULN-005 | HTML upload allowed and /upload/** served anonymously (stored XSS) | High |
 | AC-VULN-006 | One-click login issues tokens for arbitrary usernames | High |
 | AC-VULN-007 | passwordHasher disabled leads to weak password storage | Medium |
+| AC-VULN-008 | Upload fileDirectory path traversal writes outside upload/ | High |
+| AC-VULN-009 | Slide captcha oracle and reusable captchaId | High |
+| AC-VULN-010 | Access JWT alone refreshes session without server revocation | High |
+| AC-VULN-011 | Tenant one-click login issues target tenant admin tokens | High |
+| AC-VULN-012 | Anonymous dictionary API information disclosure | Medium |
