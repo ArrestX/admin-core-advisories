@@ -21,7 +21,7 @@ Permissive upload allowlist + public static file mapping for upload directory.
 ## Exploit / reproduction
 
 1. Login as admin and upload `poc.html` via `/api/admin/file/upload-file`.
-2. Open returned `linkUrl` anonymously, e.g. [http://127.0.0.1:18010/upload/2026/08/03/6a705817-dfb1-cd4d-0031-469144d63ae2.html](http://127.0.0.1:18010/upload/2026/08/03/6a705817-dfb1-cd4d-0031-469144d63ae2.html).
+2. Open returned `linkUrl` anonymously, e.g. [http://127.0.0.1:18010/upload/2026/08/03/6a7058fc-dfb1-cd4d-0031-469d35b9bf64.html](http://127.0.0.1:18010/upload/2026/08/03/6a7058fc-dfb1-cd4d-0031-469d35b9bf64.html).
 
 
 ## PoC (Yakit)
